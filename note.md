@@ -11,3 +11,5 @@ app
 core
 index require->bootstrap: require app/App.php;
 4. Xử lý url trong App.php
+5. Tạo class Controller trong core -> TẠO function model -> gọi class model
+6. Tạo class Model trong ./models ->
