@@ -1,7 +1,7 @@
 <?php
 class ProductModel
 {
-    public function getProductLists()
+    public function getProductLists() // Hàm lấy danh sách sản phẩm từ DB
     {
         return [
             'Lap top',
@@ -9,7 +9,7 @@ class ProductModel
             'Telephone'
         ];
     }
-    public function getDetail($id)
+    public function getDetail($id) 
     {
         $data = [
             'Quần jean',
